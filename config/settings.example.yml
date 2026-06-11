@@ -1,0 +1,13 @@
+saviynt:
+  base_url: "https://your-tenant.saviyntcloud.com"
+  username: "svc_provisioning"
+  password: "REPLACE_WITH_VAULT_SECRET"
+
+workday:
+  tenant: "your_workday_tenant"
+  api_version: "v39.0"
+
+notifications:
+  slack_webhook: "https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
+  notify_manager: true
+  notify_it_helpdesk: true
